@@ -1,3 +1,5 @@
 # These are the packages i install to have basic usability
 # These are additional packages to the ones archinstall installs with Desktop profile with hyprland
 waybar hyprpaper brightnessctl nerd-fonts (i personally use ttf-0xproto-nerd) hyprlock fuse2 pavucontrol firefox vlc vlc-plugin-ffmpeg grim gpicview thunar gvfs gnome-disk-utility
+
+i also edit /etc/systemd/logind.conf to enable suspend on a laptop
