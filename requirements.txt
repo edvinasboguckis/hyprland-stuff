@@ -3,3 +3,8 @@
 waybar hyprpaper brightnessctl nerd-fonts (i personally use ttf-0xproto-nerd) hyprlock fuse2 pavucontrol firefox vlc vlc-plugin-ffmpeg screengrab gpicview thunar gvfs gnome-disk-utility mtpfs gvfs-mtp fastfetch iotop iftop btop unzip dosfstools
 
 i also edit /etc/systemd/logind.conf to enable suspend on a laptop
+
+#debian stuff
+
+apt install vim vlc lm-sensors psensor libfuse2t64 flatpak gnome-software-plugin-flatpak gnome-power-manager fastfetch
+flatpak remote-add --if-not-exists flathub https://dl.flathub.org/repo/flathub.flatpakrepo
