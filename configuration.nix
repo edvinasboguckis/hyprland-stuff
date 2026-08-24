@@ -1,6 +1,11 @@
 ...
   programs.appimage.enable = true;
   programs.appimage.binfmt = true;
+  services.flatpak.enable = true;
+  virtualisation.libvirtd.enable = true;
+  programs.virt-manager.enable = true;
+  #add user to libvirtd group
+  
 
   programs.steam = {
     enable = true;
@@ -18,6 +23,9 @@
     iotop
     iftop
     vlc
+    vscode
+    python3
+    dnsmasq
   ];
 
 ...
