@@ -26,6 +26,8 @@
     vscode
     python3
     dnsmasq
+    gparted
+    fastfetch
   ];
 
 networking.firewall.enable = true;
