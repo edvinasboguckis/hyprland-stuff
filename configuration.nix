@@ -28,4 +28,6 @@
     dnsmasq
   ];
 
+networking.firewall.trustedInterfaces = [ "virbr0" ];
+
 ...
