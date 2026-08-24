@@ -28,6 +28,7 @@
     dnsmasq
   ];
 
+networking.firewall.enable = true;
 networking.firewall.trustedInterfaces = [ "virbr0" ];
 
 ...
